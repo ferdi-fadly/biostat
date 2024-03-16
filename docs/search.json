@@ -1,0 +1,93 @@
+[
+  {
+    "objectID": "intro.html#notasi-notasisimbol-yang-digunakan-dalam-modul-ini",
+    "href": "intro.html#notasi-notasisimbol-yang-digunakan-dalam-modul-ini",
+    "title": "\n1  Pendahuluan\n",
+    "section": "\n1.1 Notasi-notasi/simbol yang digunakan dalam modul ini",
+    "text": "1.1 Notasi-notasi/simbol yang digunakan dalam modul ini\n\n\n\\(\\mu :\\) mu merepresentasikan rata-rata dari sebuah distribusi data\n\n\\(\\sigma :\\) sigma merepresentasikan standard deviasi\n\n\\(\\lambda :\\) lambda merepresentasikan rate\n\n\n\\(\\alpha :\\) alpha sering digunakan dalam persamaan\n\n\\(\\beta :\\) beta sering digunakan dalam persamaan"
+  },
+  {
+    "objectID": "intro.html#perbedaan-proporsi-vs-persentase-vs-rasio-vs-rate",
+    "href": "intro.html#perbedaan-proporsi-vs-persentase-vs-rasio-vs-rate",
+    "title": "\n1  Pendahuluan\n",
+    "section": "\n1.2 Perbedaan Proporsi vs Persentase vs Rasio vs Rate\n",
+    "text": "1.2 Perbedaan Proporsi vs Persentase vs Rasio vs Rate\n\n\n1.2.1 Proporsi\nSebagian (share) dari keseluruhan.\ne.g.\nPada sebuah penelitian terhadap 200 orang, 15 diantaranya flu. Proporsi yang terkena flu adalah \\[\n\\frac{15}{200}=\\frac{3}{40}=0.075\n\\]\n\n1.2.2 Persentase\nProporsi yang diekspresikan dengan 100.\ne.g.\nPada sebuah penelitian terhadap 200 orang, 15 diantaranya flu. Persentase yang terkena flu adalah \\[\n\\frac{15}{200} \\times 100=0.075\\times 100=7.5 \\%\n\\]\n\n1.2.3 Rasio\nPerbandingan dari 2 buah angka. BIasanya, dipisahkan oleh “:” atau colon.\ne.g.\nPada sebuah penelitian terhadap 200 orang, 15 diantaranya flu. Rasio yang terkena dan tidak terkena flu adalah\n\\[15 : 185 = 3 : 37\\]\n\n1.2.4 Rate\nRate menyatakan banyaknya kejadian dalam rentang waktu tertentu.\ne.g.\nI run 5 kilometers in half an hour. I run at the rate of 10 km/h.\nIncidence Rate menyatakan banyaknya kejadian dalam sebuah populasi dalam rentang waktu tertentu.\ne.g.\nIn a study of 1000 people, 12 develop cancer over one year of the study. The Incidence Rate is 12/1000 people/year."
+  },
+  {
+    "objectID": "intro.html#nilai-tengah",
+    "href": "intro.html#nilai-tengah",
+    "title": "\n1  Pendahuluan\n",
+    "section": "\n1.3 Nilai Tengah",
+    "text": "1.3 Nilai Tengah\n\n1.3.1 Mean (\\(\\bar{X}\\))\n\\[\\text{Mean} = \\bar{X} =\\frac{1}{N}\\sum_{i=1}^N x_i\\]\ne.g.\nDalam sebuah penelitian terhadap 10 orang, usia mereka adalah sebagai berikut : \\[56,64,5,63,67,59,66,69,62,57\\]\n\nx=c(56,64,5,63,67,59,66,69,62,57)\nmean(x)\n\n[1] 56.8\n\n\n\\[\\text{Mean}=\\frac{1}{N}\\sum_{i=1}^Nx_i=\\frac{56+64+5+63+67+59+66+69+62+57}{10}=56.8\\]\n\n1.3.2 Median (Me)\nNilai tengah dari sebuah kumpulan angka ketika diurutkan dari yang terkecil ke yang terbesar. Ketika banyaknya angka adalah genap, maka diambil rata-rata dari kedua angka yang berada di tengah-tengah data.\nMisalnya: Dalam sebuah penelitian terhadap 10 orang, usia mereka adalah sebagai berikut : \\[56,64,5,63,67,59,66,69,62,57\\]\nSetelah diurutkan menjadi:\n\nx=c(56,64,5,63,67,59,66,69,62,57)\nsort(x)\n\n [1]  5 56 57 59 62 63 64 66 67 69\n\n\nSehingga Mediannya menjadi \\(\\frac{62+63}{2}=62.5\\)\n\n1.3.3 Perbandingan Mean dan Median\n\nMean = 56.8\nMedian = 62.5\nadanya nilai outlier akan menggeser nilai Mean tapi tidak demikian halnya dengan Median"
+  },
+  {
+    "objectID": "intro.html#tipe-tipe-variabel",
+    "href": "intro.html#tipe-tipe-variabel",
+    "title": "\n1  Pendahuluan\n",
+    "section": "\n1.4 Tipe-tipe Variabel",
+    "text": "1.4 Tipe-tipe Variabel\n\n1.4.1 Variabel Outcome vs Variabel Exposure\n\n\nNama istilah lainnya\n\nVariabel Outcome\n\nVariabel Exposure\n\n\n\n\nVariabel Respons\nRisk Factor\n\n\nVariabel Terikat (Dependent)\nVariabel Bebas (Independent)\n\n\n\nVariabel Penjelas (Explanatory)\n\n\n\nSeringkali sebuah penelitian bertujuan untuk mengetahui hubungan antar variabel Outcome dan variabel exposure-nya\n\n1.4.2 Variabel Outcome\n\nVariabel ini dapat berupa:\n\nKualitatif e.g. status kesehatan: sehat/tidak\nKuantitatif e.g. Tekanan darah\n\n1.4.3 Variabel Exposure\n\nVariabel yang memengaruhi Variabel Outcome. Variabel ini dapat berupa:\n\nKualitatif e.g. Menjadi Wanita yang bekerja: Ya/Tidak\nKuantitatif e.g. Usia"
+  },
+  {
+    "objectID": "estimation.html#parameter",
+    "href": "estimation.html#parameter",
+    "title": "2  Estimasi",
+    "section": "2.1 Parameter",
+    "text": "2.1 Parameter\nUkuran dari suatu Populasi\n\n2.1.1 Tipe-tipe Parameter\n\nPopulation Mean\nPopulation Proportion\nProbability\nRate\nOdds Ratio\n\n\n\n2.1.2 Tujuan\nUtamanya tujuan sebuah penelitian atau study adalah untuk estimasti karakteristik populasi dengan menghitung karakteristik dari sampel terkait."
+  },
+  {
+    "objectID": "estimation.html#penyajian-hasil-estimasi",
+    "href": "estimation.html#penyajian-hasil-estimasi",
+    "title": "2  Estimasi",
+    "section": "2.2 Penyajian Hasil Estimasi",
+    "text": "2.2 Penyajian Hasil Estimasi\n\n2.2.1 Estimasi Titik\nMisalnya untuk estimasi Population Mean (\\(\\mu\\)), kita menggunakan sample mean (\\(\\bar{X}\\)).\n\n\n2.2.2 Estimasi Interval atau Confidence Interval\n\\[\\begin{equation}\n\\begin{aligned}\n&\\bar{X} \\sim \\text{Normal} (\\mu, \\text{se}(\\bar{X})) \\\\\nPr(\\mu-1.96 \\times \\text{se}(\\bar{X}) &lt; &\\bar{X} &lt; \\mu+1.96 \\times \\text{se}(\\bar{X}) ) = 0.95\n\\end{aligned}\n\\end{equation}\\]\nOleh karena itu, Interpretasi yang benarnya adalah\n“We are 95% confident that the CI contains the true \\(\\mu\\) value, because it was constructed in a way so that in repeated sampling 95% of CIs do contain \\(\\mu\\)”"
+  },
+  {
+    "objectID": "estimation.html#contoh-estimasi-selang-kepercayaan",
+    "href": "estimation.html#contoh-estimasi-selang-kepercayaan",
+    "title": "2  Estimasi",
+    "section": "2.3 Contoh Estimasi Selang Kepercayaan",
+    "text": "2.3 Contoh Estimasi Selang Kepercayaan\n20 berat janin yang berusia 40 minggu memiliki statistik sebagai berikut:\n\nsample mean: \\(\\bar {X}=3159\\) grams\nsample standard deviation: \\(s=220\\) grams\nSo, standard errornya adalah \\[se= \\frac{s}{\\sqrt{n}}=\\frac{220}{\\sqrt{20}}=49.2\\]\n\n95% Confidence Interval nya adalah:\n\\[(3159-1.96 \\times 49.2, 3159+1.96 \\times 49.2)= (3063,3255)\\]"
+  },
+  {
+    "objectID": "estimation.html#tipe-tipe-studipenelitian",
+    "href": "estimation.html#tipe-tipe-studipenelitian",
+    "title": "2  Estimasi",
+    "section": "2.4 Tipe-tipe Studi/Penelitian",
+    "text": "2.4 Tipe-tipe Studi/Penelitian\n- Cross-Sectional Study - Cohort Study - Case-Control Study - Randomised Controlled Trial (RCT)\n\n2.4.1 Cross-Sectional Study\nPengumpulan outcome and exposure variables pada sebuah sampel dilakukan saat bersamaan.\n\n2.4.1.1 Advantages\n\nRelatif Murah\nDapat Mencapai tingkat partisipasi yang tinggi\nMemperoleh hasil dengan cepat\n\n\n\n2.4.1.2 Disadvantages\n\nTerbatas dengan apa yang akan diestimasi\ndapat memperoleh hubungan (association) tapi bukan hubungan sebab-akibat (causal)\n\n\n\n\n2.4.2 Cohort Study\nLongitudinal studies yang diamati beberapa periode\n\n2.4.2.1 Advantages\n\nMengatasi masalah dari Cross-sectional Study\n\n\n\n2.4.2.2 Disadvantages\n\nBiaya sangat mahal\nWaktu yang lama\n\n\n\n\n2.4.3 Case-Control Study\nPada bentuk penelitian ini, individu penelitian diambil sebagai contoh berdasarkan status dari outcome variable nya\n\nbiasa digunakan pada penyakit dengan tingkat kejadian yang rendah\nMengambil sample individual tanpa penyakit sebagai control\nVariabel outcome nya bersifat binary (case/control)\n\n\n\n2.4.4 Randomised Controlled Trial (RCT)\nStudy dimana sampel penelitian dialokasikan secara random mana yang akan memperoleh intervensi mana yang tidak (placebo)\n(Kirkwood and Sterne 2010)\n\n\n\n\nKirkwood, B. R., and J. A. C. Sterne. 2010. Essential Medical Statistics. Essentials. Wiley. https://books.google.co.id/books?id=8GemDQAAQBAJ."
+  },
+  {
+    "objectID": "proporsi.html#estimasi-proporsi-pi",
+    "href": "proporsi.html#estimasi-proporsi-pi",
+    "title": "3  Binary Variable",
+    "section": "3.1 Estimasi Proporsi \\(\\pi\\)",
+    "text": "3.1 Estimasi Proporsi \\(\\pi\\)\nsample proportion (p) \\[p=\\frac{d}{n}\\]\nContoh:\n\nSample size (n): 11,247\nNumber with diabetes (d): 844\nProportion\n\n\\[\\begin{equation}\n\\begin{aligned}\np&= d/n \\\\\n&= 844 / 11,247 \\\\\n&= 0.075\n\\end{aligned}\n\\end{equation}\\]\nPercentage People with diabetes = 7.5% (or 75 per 1000 people)."
+  },
+  {
+    "objectID": "proporsi.html#membandingkan-2-proporsi",
+    "href": "proporsi.html#membandingkan-2-proporsi",
+    "title": "3  Binary Variable",
+    "section": "3.2 Membandingkan 2 Proporsi",
+    "text": "3.2 Membandingkan 2 Proporsi\nWith binary outcomes we can compare estimates of the proportion with disease in different populations\ni.e. we can examine if there is an association between an exposure and disease by comparing the proportions with disease in the exposed and the unexposed groups.\nExamples:\n\nAre men more likely than women to have diabetes?\n\n\n3.2.1 Contingency Table\n\n\n\nExposure\nOutcome (Yes)\nOutcome (No)\nTotal\n\n\n\n\nYes\n\\(d_1\\)\n\\(h_1\\)\n\\(n_1\\)\n\n\nNo\n\\(d_2\\)\n\\(h_2\\)\n\\(n_2\\)\n\n\nTotal\n\\(d\\)\n\\(h\\)\n\\(n\\)\n\n\n\n\n\n3.2.2 Contoh Kasus\nYou survey 330 people at the festival.\n\n250 ate ice cream and 80 didn’t\nOf those that ate ice cream, 170 developed gastro and 80 didn’t\nOf those that didn’t eat ice cream, 10 developed gastro and 70 didn’t\n\n\n\n\nEat Ice Cream\nGastro (Yes)\nGastro (No)\nTotal\n\n\n\n\nYes\n\\(170\\)\n\\(80\\)\n\\(250\\)\n\n\nNo\n\\(10\\)\n\\(70\\)\n\\(80\\)\n\n\nTotal\n\\(180\\)\n\\(150\\)\n\\(330\\)\n\n\n\nOverall risk of gastroenteritis \\[180/330 = 0.545 (54.5\\%)\\] Risk of gastroenteritis in those who ate ice cream = \\[170/250 = .68 (68\\%)\\] Risk of gastroenteritis in those who did not eat ice cream = \\[10/80 = .125 (12.5\\%)\\]\n\n\n3.2.3 Risk Difference (RD)\n\\[ \\text{Risk Difference (RD) = Risk in exposed – Risk in unexposed}\\]\n\n\n3.2.4 Relative Risk (RR)\n\\[ \\text{Relative Risk (RR)} = \\frac{\\text{Risk in exposed}}{\\text{Risk in unexposed}}\\]\nThese are known as measures of effect size.\n\\[RD = 68\\% – 12.5\\% = 55.5\\%\\] i.e. The absolute difference in risk of GI disease between those who did and did not eat the ice-cream was 55.5 percentage points.\n\\[RR = \\frac{68\\%}{12.5\\%} = 5.4\\] i.e. Those who ate ice cream were 5.4 times more likely to develop GI symptoms than those who did not eat the ice cream.\n\n\n3.2.5 Odds dan Odds Ratio\nThe odds of an event are the probability that it does happen, divided by the probability that it does not happen.\nWe used odds when dealing with the rare outcome.\n\n\n\n\n\n\n\n\n\n\nEat Ice Cream\nGastro (Yes)\nGastro (No)\nTotal\nOdds of Gastro\n\n\n\n\nYes\n\\(170\\)\n\\(80\\)\n\\(250\\)\n\\(170/80=2.125\\)\n\n\nNo\n\\(10\\)\n\\(70\\)\n\\(80\\)\n\\(10/70=0.143\\)\n\n\nTotal\n\\(180\\)\n\\(150\\)\n\\(330\\)\n\n\n\n\nThus,\n\\[\\text{Odds Ratio}=\\frac{\\text{Odds (Exposure=1)}}{\\text{Odds (Exposure=0)}}=\\frac{2.125}{0.143}=14.9\\]\nInterpretation: The odds of gastroenteritis was nearly 15 times higher in those that ate ice cream compared to those that didn’t\n\n\n3.2.6 Odds Ratio vs Risk Ratio\nRisk Ratios are usually easier to interpret and understand…\nBUT Odds Ratios have some nice properties:\n\nwe can use them for case-control studies (where there are usually not enough data to calculate risks)\nidentical conclusions if we look at occurrence or absence of an outcome (e.g. odds of case versus odds of control)\ndon’t run into computational difficulties with common outcomes\nfor a rare outcome, the Odds Ratio is very close to the Risk Ratio"
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "\n4  Summary\n",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Kirkwood, B. R., and J. A. C. Sterne. 2010. Essential Medical\nStatistics. Essentials. Wiley. https://books.google.co.id/books?id=8GemDQAAQBAJ."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Biostatistics",
+    "section": "",
+    "text": "Kata Pengantar\nWebsite ini untuk membahas Mata Kuliah Biostatistics."
+  }
+]
